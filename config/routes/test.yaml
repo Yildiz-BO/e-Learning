@@ -1,0 +1,10 @@
+test:
+  path: /test/{age<\d+>?0}
+  controller: App\Controller\DefaultController::test
+  methods: [GET, POST]
+  schemes: [https]
+  #host: 
+  #defaults:
+    #age: 0
+  #requirements:
+    #age: \d+
